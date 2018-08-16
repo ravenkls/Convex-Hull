@@ -4,13 +4,14 @@ from scipy.interpolate import spline
 import numpy as np
 
 plt.xlabel("Number of points")
-plt.ylabel("Time taken (seconds)")
+plt.ylabel("Time taken")
 
 times = [] # Y Axis
 points = np.array([10, 25, 50, 75, 100, 500, 1000, 5000, 10000, 15000, 20000, 50000, 100000]) # X Axis
 
-convex_hull(100000)
+for x in points:
+    times.append(convex_hull(x, plot=False))
 
-#plt.plot(points, times)
+plt.plot(points, times)
 
-#plt.show()
+plt.show()
