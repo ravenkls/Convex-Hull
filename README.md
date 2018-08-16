@@ -10,10 +10,10 @@ In mathematics, the convex hull or convex envelope or convex closure of a set X 
 #### 2500 Points
 <img src='https://i.imgur.com/qJA2yBn.png' />
 
-#### 25000
+#### 25000 Points
 <img src='https://i.imgur.com/BeUx3o1.png' />
 
-#### 100000
+#### 100000 Points
 <img src='https://i.imgur.com/tgjeVkx.png' />
 
 ## Time Graph
