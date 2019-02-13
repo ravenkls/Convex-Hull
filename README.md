@@ -22,4 +22,5 @@ In mathematics, the convex hull or convex envelope or convex closure of a set X 
 <img src='https://i.imgur.com/tgjeVkx.png' />
 
 ## Time Graph
+The time taken to compute a convex hull seems to be linear, that is, O(n) time complexity.
 <img src='https://i.imgur.com/gjmBCZQ.png' />
